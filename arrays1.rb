@@ -20,10 +20,12 @@ nest = [
     ]
 
 def find_element ( collection, element )
-    collection.each do | c |
-        puts c if c[ 0 ] >= element
-    end
+
+    puts collection.select { | e | e[ 2 ] == element }
+    # collection.each do | c |
+    #     puts c if c[ 0 ] <= element
+    # end
 end
 
-find_element( nest[1], 500 )
+find_element( nest[1], 0 )
 
