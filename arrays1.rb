@@ -8,9 +8,9 @@ players = [
 
 def find_element collection, element
     collection.each do |c|
-        puts c if c[1] == element
+        puts c if c[0] == element
     end
 end
 
-find_element(players, 'Jose Altuve')
+find_element(players, 10)
 
