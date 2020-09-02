@@ -27,5 +27,6 @@ def find_element ( collection, element )
     # end
 end
 
-find_element( nest[1], 0 )
+find_element( nest[0], 0 )
+# find_element( nest[1], 0 )
 
